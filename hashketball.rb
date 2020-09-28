@@ -169,7 +169,7 @@ def team_numbers(name)
       count = 0
       team_data[:players].count do
         answer << team_data[:players][count][:number]
-        binding.pry
+        #binding.pry
         count += 1
       end
     end
