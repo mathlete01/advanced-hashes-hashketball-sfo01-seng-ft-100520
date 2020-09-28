@@ -183,7 +183,7 @@ def player_stats(name)
     answer = {}
     count = 0
     team_data[:players].count[:player_name]
-      if team_data[:players][count][:player_name] == name
+      if team_data[:players].count[:player_name] == name
         answer = team_data[:players][count]
         binding.pry
       count += 1
