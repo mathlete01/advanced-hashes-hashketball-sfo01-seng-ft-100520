@@ -172,9 +172,9 @@ def team_numbers(name)
         #binding.pry
         count += 1
       end
+    answer
     end
   end
-  answer
 end
 
 
