@@ -191,3 +191,5 @@ def player_stats(name)
     end
   end
 end
+
+player_stats("Bismack Biyombo")
