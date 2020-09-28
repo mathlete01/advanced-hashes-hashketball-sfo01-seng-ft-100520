@@ -203,7 +203,7 @@ def big_shoe_rebounds()
       num += 1
     end
     playerArray.max_by([:shoe])
-    playerArray[:rebounds]
+    return playerArray[:rebounds]
   end
 end
 
