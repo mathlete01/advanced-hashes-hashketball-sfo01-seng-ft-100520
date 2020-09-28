@@ -173,7 +173,7 @@ def player_numbers(name)
         count += 1
       end
       #binding.pry
-    answer
+    return answer
     end
   end
 end
