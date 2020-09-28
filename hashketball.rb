@@ -179,4 +179,4 @@ def player_numbers(name)
 end
 
 
-team_numbers("Brooklyn Nets")
+player_numbers("Brooklyn Nets")
