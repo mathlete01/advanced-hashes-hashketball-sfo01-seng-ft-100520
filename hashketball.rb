@@ -205,7 +205,7 @@ def big_shoe_rebounds()
     binding.pry
     sorted = playerArray.sort_by { |k| k[:shoe]) }
     binding.pry
-    return playerArray[:rebounds][0]
+    return sorted[:rebounds][0]
   end
 end
 
