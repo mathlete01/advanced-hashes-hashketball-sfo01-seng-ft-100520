@@ -194,4 +194,17 @@ def player_stats(name)
   end
 end
 
-player_stats("Bismack Biyombo")
+def big_shoe_rebounds()
+  game_hash.each do |location, team_data|
+    playerArray = []
+    num = 0
+    team_data[:players].count do
+      playerArray << team_data[:players][num]
+      num += 1
+    end
+    playerArray.max_by([:shoe])
+    playerArray[:rebounds]
+  end
+end
+
+#player_stats("Bismack Biyombo")
