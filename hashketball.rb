@@ -166,11 +166,11 @@ def player_numbers(name)
   game_hash.each do |location, team_data|
     answer = []
     if team_data[:team_name] == name
-      count = 0
+      num = 0
       team_data[:players].count do
-        answer << team_data[:players][count][:number]
+        answer << team_data[:players][num][:number]
         #binding.pry
-        count += 1
+        num += 1
       end
       #binding.pry
     return answer
