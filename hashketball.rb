@@ -185,7 +185,7 @@ def player_stats(name)
     team_data[:players][num][:player_name]
       if team_data[:players][num][:player_name] == name
         answer = team_data[:players][num]
-        binding.pry
+        #binding.pry
         puts "answer = #{answer}"
         return answer
       end
