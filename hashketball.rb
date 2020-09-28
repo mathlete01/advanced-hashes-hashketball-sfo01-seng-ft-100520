@@ -202,7 +202,9 @@ def big_shoe_rebounds()
       playerArray << team_data[:players][num]
       num += 1
     end
+    bindings.pry
     playerArray.max_by([:shoe])
+    bindings.pry
     return playerArray[:rebounds]
   end
 end
