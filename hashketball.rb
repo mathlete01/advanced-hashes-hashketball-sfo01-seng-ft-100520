@@ -189,9 +189,9 @@ def player_stats(name)
         puts "answer = #{answer}"
         return answer
       end
-      num += 1
+    num += 1
     end
   end
-
+end
 
 player_stats("Bismack Biyombo")
