@@ -203,9 +203,10 @@ def big_shoe_rebounds()
       num += 1
     end
     binding.pry
-    playerArray.max_by([:shoe])
+    sorted = playerArray.sort_by do |k| k[:shoe])
+    end
     binding.pry
-    return playerArray[:rebounds]
+    return playerArray[:rebounds][0]
   end
 end
 
