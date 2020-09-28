@@ -188,6 +188,7 @@ def player_stats(name)
         binding.pry
         puts "answer = #{answer}"
         return answer
+      end
       num += 1
     end
   end
