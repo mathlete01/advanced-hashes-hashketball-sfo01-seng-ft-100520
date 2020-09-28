@@ -176,5 +176,6 @@ def team_numbers(name)
   end
   answer
 end
+end
 
 team_numbers("Brooklyn Nets")
