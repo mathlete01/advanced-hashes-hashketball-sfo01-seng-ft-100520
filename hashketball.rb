@@ -162,7 +162,7 @@ def team_names()
   answer
 end
 
-def team_numbers(name)
+def player_numbers(name)
   game_hash.each do |location, team_data|
     answer = []
     if team_data[:team_name] == name
