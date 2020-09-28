@@ -171,11 +171,11 @@ def team_numbers(name)
         answer << team_data[:players][count][:number]
         binding.pry
         count += 1
-      
+
     end
   end
   answer
 end
-end
+
 
 team_numbers("Brooklyn Nets")
