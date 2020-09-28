@@ -183,6 +183,7 @@ def player_stats(name)
     answer = {}
     num = 0
     team_data[:players][num][:player_name]
+    binding.pry
       if team_data[:players][num][:player_name] == name
         answer = team_data[:players][num]
         binding.pry
