@@ -167,7 +167,7 @@ def team_numbers(name)
     answer = []
     if team_data[:team_name] == name
       count = 0
-      for team_data[:players].count do
+      team_data[:players].count do
         answer << team_data[:players][count][:number]
         binding.pry
         count += 1
